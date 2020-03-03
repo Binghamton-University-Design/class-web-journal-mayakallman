@@ -39,7 +39,12 @@ body {
 .box {
     
 }
+.book{ margin-top: 2em; }
 
+.nice-image{
+  width:100%;
+  height:auto;
+}
 .thumb-box h3, .box h3 {
   margin-top: 0;
 }
