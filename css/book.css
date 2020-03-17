@@ -1,43 +1,52 @@
+.wrapper {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .grid {
-				grid-gap: 1em;
-				margin: 0 0 2em 0;
+  border: 1px solid #c6c6c6;
+  background-color: #f6f6f6;
+	grid-gap: 0;
+	margin: 0 0 2em 0;
+  padding-bottom: 2em;
 
-			}
-			.grid div {
-				background-color:transparent;
-			}
+}
+.grid div {
+	background-color:transparent;
+}
 
-      .nice-image {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
+.nice-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-      .book {
-        margin-top: 2em;
-      }
+.book {
+  margin-top: 2em;
+}
 
-			.book h2{
-  				font-family: 'Fira Sans', sans-serif;
-          font-size: 40pt;
-  				margin-left: 1em;
-  				text-align: center;
-      }
+.book h2{
+		font-family: 'Fira Sans', sans-serif;
+    font-size: 3em;
+    margin: .25em 0;
+		text-align: center;
+}
 
 
-  		.book-nav{
-  				text-align: center;
-  		}
+.book-nav{
+		text-align: center;
+}
 
-  		.book-nav img{
-  				width: 33%;
-  				
-  		}
+.book-nav img{
+		width: 33%;
+		
+}
 
-      .book-credits {
-        margin-left: 1em;
-      }
+.book-credits {
+  margin-left: 1em;
+}
 
-      .book-nav a {
-          background-color: transparent;
-      }
+.book-nav a {
+    background-color: transparent;
+}
