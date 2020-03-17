@@ -4,7 +4,7 @@
 
 			}
 			.grid div {
-				background-color:rgba(0,0,0,0.1);
+				background-color:transparent;
 			}
 
       .nice-image {
@@ -19,6 +19,7 @@
 
 			.book h2{
   				font-family: 'Fira Sans', sans-serif;
+          font-size: 40pt;
   				margin-left: 1em;
   				text-align: center;
       }
