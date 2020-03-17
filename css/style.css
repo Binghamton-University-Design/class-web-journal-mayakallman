@@ -1,12 +1,13 @@
 /* vars */
 :root {
-  --background-color: #ffffff;
+  --background-color: #2D3534;
   --link-color: #E2E3E3;
   --alt-link-color: #111;
   --body-color: #111111;
   --light-grey: #A9AAAA;
   --lighter-grey: #C6C7C6;
   --lightest-grey: #E2E3E3;
+  --dark-grey:#2D3534;
 }
 
 html {
@@ -50,7 +51,7 @@ body {
 }
 
 #masthead {
-    background-color: var(--body-color);
+    background-color: #55ADA3;
     padding: 1em;
     text-align: right;
 }
@@ -65,8 +66,8 @@ body {
     overflow: hidden;
     text-align: center;
     font-size: .75em;
+    color:white;
     font-family:'Fira Sans', sans-serif;
-    background-color: transparent;
 }
 
 
@@ -90,11 +91,12 @@ h4 {
 #masthead h4 {
     margin: 0;
     font-weight: 300;
+    font-family:'Fira Sans', sans-serif;: 
 }
 
 #masthead h4 a {
-    color: var(--link-color);
-    background-color: var(--body-color);
+    color: white;
+    background-color:transparent;
 }
 
 #masthead h4 a:hover {
