@@ -6,13 +6,14 @@
 }
 
 .grid {
+  background-color: grey;
 	grid-gap: 0;
 	margin: 0 0 2em 0;
   padding-bottom: 2em;
 
 }
 .grid div {
-	background-color:transparent;
+  /*background-color:transparent;*/
 }
 
 .nice-image {
@@ -54,3 +55,5 @@
 .book-nav a {
     background-color: transparent;
 }
+
+
