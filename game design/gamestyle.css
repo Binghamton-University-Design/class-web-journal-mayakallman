@@ -1,13 +1,13 @@
 body{
-	background-color: #000 ;
-	text-align: left;
-	margin: 0;
+	background-color:#000;
+	text-align:left;
+	margin:0;
 	color:green;
 	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.6;
-	font-family: Helvetica, sans-serif;
-	height: 100%;
+	font-weight:400;
+	line-height:1.6;
+	font-family:Helvetica, sans-serif;
+	height:100%;
 	position: relative;
 
 }
@@ -27,8 +27,8 @@ body{
 }
 
 #game{
-	position: relative;
-	background-color: #fff;
+	position:relative;
+	background-color:#fff;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width:960px;
