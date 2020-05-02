@@ -15,7 +15,7 @@ body{
 .wrapper{
 	position: relative;
 	max-width: 960px;
-	margin: 0 auto;
+	margin:0 auto;
 }
 
 #game-holder{
@@ -29,7 +29,7 @@ body{
 #game{
 	position:relative;
 	background-color:#fff;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	width:960px;
 	height:600px;
@@ -37,4 +37,35 @@ body{
 	margin:0 2em;
 
 
+}
+
+.left-button {
+	z-index: 2;
+	position:absolute;
+	padding: 20px;
+	background-color:pink;
+	left: 30px;
+	top:30px;
+}
+
+.right-button {
+	z-index: 3;
+	position:absolute;
+	padding: 20px;
+	background-color: pink;
+	right: 30px;
+	top:30px;
+}
+
+}
+
+.x {
+	z-index: 3;
+	width: 100px;
+	height:100px;
+	position: absolute;
+	padding: 20px;
+	background-color: orange;
+	right:30px;
+	top:300px;
 }
