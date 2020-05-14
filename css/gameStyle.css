@@ -1,5 +1,5 @@
 body{
-	background-color:#000;
+	background-color:black;
 	text-align:left;
 	margin:0;
 	color:green;
@@ -28,44 +28,87 @@ body{
 
 #game{
 	position:relative;
-	background-color:#fff;
+	background-color:transparent;
 	background-size: contain;
 	background-repeat: no-repeat;
 	width:960px;
-	height:600px;
+	height:540px;
 	padding:2em;
 	margin:0 2em;
 
 
 }
 
-.left-button {
+.home-button {
 	z-index: 2;
 	position:absolute;
 	padding: 20px;
-	background-color:pink;
-	left: 30px;
-	top:30px;
+	width:100px;
+	background-color:transparent;
+	left: 25px;
+	top:25px;
 }
 
-.right-button {
+.next-button {
 	z-index: 3;
 	position:absolute;
 	padding: 20px;
-	background-color: pink;
+	width:100px;
+	background-color: transparent;
 	right: 30px;
-	top:30px;
+	top:380px;
 }
-
-}
-
-.x {
+.start-button {
 	z-index: 3;
 	width: 100px;
-	height:100px;
-	position: absolute;
+	position:absolute;
 	padding: 20px;
-	background-color: orange;
-	right:30px;
-	top:300px;
+	background-color: transparent;
+	right: 250px;
+	top:337px;
 }
+.tunisia-button {
+	z-index: 3;
+	position:absolute;
+	padding: 20px;
+	width:7px;
+	height:35px;
+	background-color: transparent;
+	left: 250px;
+	top:60px;
+}
+.libya-button {
+	z-index: 3;
+	position:absolute;
+	padding: 20px;
+	width:90px;
+	height:100px;
+	background-color: transparent;
+	left: 300px;
+	top:100px;
+}
+
+.egypt-button {
+	z-index: 3;
+	position:absolute;
+	padding: 20px;
+	width:50px;
+	height:80px;
+	background-color: transparent;
+	left: 440px;
+	top:120px;
+}
+.syria-button {
+	z-index: 3;
+	position:absolute;
+	padding: 20px;
+	width:7px;
+	height:7px;
+	background-color: transparent;
+	right:200px;
+	top:110px;
+}
+
+
+
+
